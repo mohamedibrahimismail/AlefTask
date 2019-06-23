@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addingTodo"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/back_signup"
+            android:layout_margin="20dp"
+            android:id="@+id/TodoText"
+            android:hint="Enter Todo"
+            android:padding="5dp"
+            android:layout_weight=".9"
+            />
+        <ImageButton
+            android:id="@+id/calender"
+            android:layout_marginTop="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_date_range_black_24dp"
+            android:background="@drawable/back_signup"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="1"
+       android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+
+        <Button
+
+            android:layout_weight=".5"
+            android:id="@+id/laststep"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal|left"
+
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            />
+
+
+        <Button
+            android:layout_weight=".5"
+            android:id="@+id/createTodo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal|right"
+
+            android:background="@color/green"
+            android:text="@string/create"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

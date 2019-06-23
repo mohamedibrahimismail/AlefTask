@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">AlefTask</string>
+    <string name="facebook_app_id">643217346121450</string>
+    <string name="fb_login_protocol_scheme">fb643217346121450</string>
+    <string name="Login">Login</string>
+    <string name="Rememberme">Remember Me</string>
+    <string name="checknetworkmessage">Please Check Network</string>
+    <string name="Errorinloading">Error In Loading</string>
+    <string name="welcome">Welcome</string>
+    <string name="CountriesName">Countries Name</string>
+    <string name="PhoneContacts">Phone Contacts</string>
+    <string name="StoriesLocation">Stories Location</string>
+    <string name="SharePhotoToFacebook">Share Photo To Facebook</string>
+    <string name="IntegrateCalender">Integrate Calender</string>
+    <string name="Logout">Log out</string>
+    <string name="MenuItem">Menu</string>
+    <string name="TodoList">Todo List</string>
+    <string name="addingTodo">Adding Todo</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Add</string>
+    <string name="Please_Enter_TODO">Please Enter TODO</string>
+    <string name="Please_Select_Date">Please Select Date</string>
+    <string name="Successfully_saved">Successfully Saved</string>
+    <string name="searcj">Search</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
